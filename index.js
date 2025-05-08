@@ -14,7 +14,7 @@ app.get("/contact-me", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/contact-me.html"));
 });
 
-app.get("/404", (req, res) => {
+app.get("404", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/404.html"));
 });
 
